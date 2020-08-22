@@ -285,7 +285,7 @@ a {
   }
 
   .hero>div>h1{
-    font-size: 2.25rem;
+    font-size: 2.5rem;
   }
 
   .card{
@@ -315,6 +315,11 @@ a {
 
   #footercard{
     flex-direction: column;
+
+  }
+
+  #footercard > h2{
+    font-size: 1.5rem;
   }
 
   footer>.container{
