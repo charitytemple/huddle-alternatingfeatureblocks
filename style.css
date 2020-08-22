@@ -277,6 +277,10 @@ a {
     height: 50px;
   }
 
+  #section1{
+    margin-bottom: 160px;
+  }
+
   .hero {
     grid-template-columns: 1fr 1.5fr;
     justify-content: space-between;
