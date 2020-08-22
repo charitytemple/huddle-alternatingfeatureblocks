@@ -36,7 +36,8 @@ h2 {
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
 
 li {
@@ -61,13 +62,12 @@ button {
 }
 
 .btn_pink {
-  width: 240px;
+  font-size: .9rem;
   padding: 15px 60px;
   background: var(--primary);
   color: #fff;
   border: none;
   border-radius: 50px;
-
 }
 
 .btn_pink:hover {
@@ -108,7 +108,6 @@ button {
 }
 
 .card>div>p {
-  font-size: .9rem;
   color: var(--grayblue);
 }
 
@@ -118,7 +117,7 @@ button {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 60px;
+  margin-bottom: 164px;
   width: 100%;
 }
 
@@ -153,7 +152,7 @@ header>img {
 }
 
 .hero>div>button {
-  width: 240px;
+
   margin-bottom: 36px;
 }
 
@@ -264,6 +263,20 @@ a {
 }
 
 @media only screen and (min-width:1024px) {
+
+  header{
+    margin-top: 50px;
+  }
+
+  header>img {
+    width: 70%;
+  }
+
+  .btn_white{
+    width: 250px;
+    height: 50px;
+  }
+
   .hero {
     grid-template-columns: 1fr 1.5fr;
     justify-content: space-between;
@@ -271,7 +284,7 @@ a {
     grid-column-gap: 80px;
   }
 
-  .textholder>h1{
+  .hero>div>h1{
     font-size: 2.25rem;
   }
 
